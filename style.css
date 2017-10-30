@@ -1,0 +1,88 @@
+body {
+	font-family: "Calibri", Times, serif;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* Стиль таблицы */
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+   border-bottom: 1px solid #ddd;
+   margin: auto;
+}
+
+/* Главный стиль таблицы */
+.main {
+	font-size: 16px;
+	border: 1px solid black;
+	width: 1024px;
+	height: 50px;
+}
+
+/* Эффект выделения ячейки */
+tr:hover {background-color: #ccc}
+
+/* Открытие изображений */
+.img {
+	text-align: center;
+	max-width: 1024px;
+	
+}
+
+/* Колонка со списком файлов */
+.td_name {
+	text-align: center;
+}
+
+/* Колонка с кнопками */
+.td_name2 {
+	text-align: center;
+	vertical-align: middle;
+	width: 150px;
+}
+
+/* Вид ссылки кнопки VIEW */
+.a_view {
+	text-align: center;
+	background-color: #f44336;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Вид ссылки остальных кнопок */
+.a_del {
+	text-align: center;
+	background-color: #000111;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Вид кнопок */
+.btn {
+	text-align: center;
+	background-color: #f44336;
+	border: none;
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Calibri", Times, serif
+    font-size: 16px;
+}
+
+/* Вид textarea */
+.txta {
+	outline: none;
+	width: 100%;
+	overflow: auto;
+}
